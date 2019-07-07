@@ -1,0 +1,24 @@
+dependencies: \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.cpp \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/Natalie/Documents/Smart-Mirror-App/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Demangle.h
