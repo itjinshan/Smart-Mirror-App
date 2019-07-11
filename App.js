@@ -6,44 +6,85 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+import React, { Component } from 'react';  
+import {StyleSheet, Text, View,Button} from 'react-native';  
+import { createBottomTabNavigator, createAppContainer} from 'react-navigation';  
+import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';  
+import Icon from 'react-native-vector-icons/Ionicons';  
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' + 'Cmd+D or shake for dev menu',
-  android:
-    'Double tap R on your keyboard to reload,\n' +
-    'Shake or press menu button for dev menu',
-});
+import EditDisplayScreen from './src/editDisplayScreen/EditDisplayScreen'
+import HomeScreen from './src/HomeScreen/HomeScreen';
+import ProfileScreen from './src/ProfileScreen/ProfileScreen';
+import MirrorSetupScreen from './src/MirrorSetupScreen/MirrorSetUpScreen';
+import LinkAccountScreen from './src/LinkAccountScreen/LinkAccountScreen'
 
-type Props = {};
-export default class App extends Component<Props> {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>Welcome to React Native!</Text>
-        <Text style={styles.instructions}>To get started, edit App.js</Text>
-        <Text style={styles.instructions}>{instructions}</Text>
-      </View>
-    );
-  }
+
+export default class App extends Component {
+    render(){
+        return(
+            <AppContainer />
+        )
+    }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
-  },
-});
+
+const TabNavigator = createMaterialBottomTabNavigator(  
+    {  
+        Home: { screen: HomeScreen,  
+            navigationOptions:{  
+                tabBarLabel:'Home',  
+                tabBarIcon: ({ tintColor }) => (  
+                    <View>  
+                        <Icon style={[{color: tintColor}]} size={25} name={'ios-home'}/>  
+                    </View>),  
+            }  
+        },  
+        Profile: { screen: ProfileScreen,  
+            navigationOptions:{  
+                tabBarLabel:'Profile',  
+                tabBarIcon: ({ tintColor }) => (  
+                    <View>  
+                        <Icon style={[{color: tintColor}]} size={25} name={'ios-person'}/>  
+                    </View>), 
+            }  
+        },  
+        EditDisplay: { screen: EditDisplayScreen,  
+            navigationOptions:{  
+                tabBarLabel:'Edit Display',  
+                tabBarIcon: ({ tintColor }) => (  
+                    <View>  
+                        <Icon style={[{color: tintColor}]} size={25} name={'ios-tablet-portrait'}/>  
+                    </View>),    
+            }  
+        },  
+        MirrorSetup: {  
+            screen: MirrorSetupScreen,  
+            navigationOptions:{  
+                tabBarLabel:'Mirror Setup',  
+                tabBarIcon: ({ tintColor }) => (  
+                    <View>  
+                        <Icon style={[{color: tintColor}]} size={25} name={'ios-wifi'}/>  
+                    </View>),  
+            }  
+        },
+        LinkAccount: {  
+          screen: LinkAccountScreen,  
+          navigationOptions:{  
+              tabBarLabel:'Link Account',  
+              tabBarIcon: ({ tintColor }) => (  
+                  <View>  
+                      <Icon style={[{color: tintColor}]} size={25} name={'ios-people'}/>  
+                  </View>),  
+          }  
+      },   
+    },  
+    {  
+      initialRouteName: "Home",  
+      activeColor: '#615af6',  
+      inactiveColor: '#b0d2f2',  
+      barStyle: { backgroundColor: '#67baf6' }, 
+    },  
+);  
+
+
+const AppContainer = createAppContainer(TabNavigator);
