@@ -30,5 +30,3 @@
                            moduleClass:(Class)moduleClass NS_DESIGNATED_INITIALIZER;
 
 @end
-
-RCT_EXTERN NSString *RCTParseMethodSignature(const char *input, NSArray<RCTMethodArgument *> **arguments);

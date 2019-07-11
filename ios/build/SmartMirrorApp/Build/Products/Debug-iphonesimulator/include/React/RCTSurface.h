@@ -43,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (instancetype)initWithBridge:(RCTBridge *)bridge
                     moduleName:(NSString *)moduleName
-             initialProperties:(NSDictionary *)initialProperties;
+             initialProperties:(NSDictionary *)initialProperties NS_DESIGNATED_INITIALIZER;
 
 #pragma mark - Dealing with UIView representation, the Main thread only access
 

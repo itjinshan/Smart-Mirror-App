@@ -73,8 +73,6 @@ public:
 
   void handleMemoryPressure(int pressureLevel);
 
-  void invokeAsync(std::function<void()>&& func);
-
 private:
   void callNativeModules(folly::dynamic &&calls, bool isEndOfBatch);
   void loadApplication(std::unique_ptr<RAMBundleRegistry> bundleRegistry,

@@ -7,14 +7,14 @@
 
 #import "RCTAnimatedNode.h"
 
-@class RCTBridge;
+@class RCTUIManager;
 @class RCTViewPropertyMapper;
 
 @interface RCTPropsAnimatedNode : RCTAnimatedNode
 
 - (void)connectToView:(NSNumber *)viewTag
              viewName:(NSString *)viewName
-               bridge:(RCTBridge *)bridge;
+            uiManager:(RCTUIManager *)uiManager;
 
 - (void)disconnectFromView:(NSNumber *)viewTag;
 

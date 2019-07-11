@@ -103,12 +103,10 @@ public:
    */
   virtual std::string getDescription() = 0;
 
-  virtual void handleMemoryPressure(__unused int pressureLevel) {}
+  virtual void handleMemoryPressure(int pressureLevel) {}
 
   virtual void destroy() {}
   virtual ~JSExecutor() {}
-
-  virtual void flush() {}
 
   static std::string getSyntheticBundlePath(
       uint32_t bundleId,

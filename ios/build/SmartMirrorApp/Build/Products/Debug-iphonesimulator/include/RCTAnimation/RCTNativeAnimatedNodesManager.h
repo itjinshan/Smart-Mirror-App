@@ -13,13 +13,11 @@
 
 @interface RCTNativeAnimatedNodesManager : NSObject
 
-- (nonnull instancetype)initWithBridge:(nonnull RCTBridge *)bridge;
+- (nonnull instancetype)initWithUIManager:(nonnull RCTUIManager *)uiManager;
 
 - (void)updateAnimations;
 
 - (void)stepAnimations:(nonnull CADisplayLink *)displaylink;
-
-- (BOOL)isNodeManagedByFabric:(nonnull NSNumber *)tag;
 
 // graph
 

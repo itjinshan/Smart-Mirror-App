@@ -46,7 +46,6 @@
 @property (nonatomic, copy) NSDictionary *maintainVisibleContentPosition;
 @property (nonatomic, assign) BOOL scrollToOverflowEnabled;
 @property (nonatomic, assign) int snapToInterval;
-@property (nonatomic, assign) BOOL disableIntervalMomentum;
 @property (nonatomic, copy) NSArray<NSNumber *> *snapToOffsets;
 @property (nonatomic, assign) BOOL snapToStart;
 @property (nonatomic, assign) BOOL snapToEnd;

@@ -167,9 +167,9 @@ RCT_EXTERN void RCTProfileSendResult(RCTBridge *bridge, NSString *route, NSData 
 
 typedef struct {
   const char *key;
-  unsigned long key_len;
+  int key_len;
   const char *value;
-  unsigned long value_len;
+  int value_len;
 } systrace_arg_t;
 
 typedef struct {

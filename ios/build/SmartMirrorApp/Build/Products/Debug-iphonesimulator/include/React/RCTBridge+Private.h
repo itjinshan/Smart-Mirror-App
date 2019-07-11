@@ -149,8 +149,7 @@ RCT_EXTERN void RCTRegisterModule(Class);
 
 @interface RCTCxxBridge : RCTBridge
 
-// TODO(cjhopman): this seems unsafe unless we require that it is only called on the main js queue.
-@property (nonatomic, readonly) void *runtime;
+@property (nonatomic) void *runtime;
 
 - (instancetype)initWithParentBridge:(RCTBridge *)bridge NS_DESIGNATED_INITIALIZER;
 
