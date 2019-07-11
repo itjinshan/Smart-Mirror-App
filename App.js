@@ -6,63 +6,28 @@
  * @flow
  */
 
-import React from 'react';  
+import React, { Component } from 'react';  
 import {StyleSheet, Text, View,Button} from 'react-native';  
 import { createBottomTabNavigator, createAppContainer} from 'react-navigation';  
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';  
 import Icon from 'react-native-vector-icons/Ionicons';  
-class HomeScreen extends React.Component {  
-  render() {  
-    return (  
-        <View style={styles.container}>  
-          <Text>Home!</Text>  
-        </View>  
-    );  
-  }  
-}  
-class ProfileScreen extends React.Component {  
-  render() {  
-    return (  
-        <View style={styles.container}>  
-          <Text>Profile!</Text>  
-        </View>  
-    );  
-  }  
-}  
-class EditDisplayScreen extends React.Component {  
-    render() {  
-        return (  
-            <View style={styles.container}>  
-                <Text>Edit Display!</Text>  
-            </View>  
-        );  
-    }  
-}  
-class MirrorSetupScreen extends React.Component {  
-    render() {  
-        return (  
-            <View style={styles.container}>  
-                <Text>Mirror Setup!</Text>  
-            </View>  
-        );  
-    }  
-} 
-class LinkAccountScreen extends React.Component {  
-  render() {  
-      return (  
-          <View style={styles.container}>  
-              <Text>Link Accounts!</Text>  
-          </View>  
-      );  
-  }  
-}  
-const styles = StyleSheet.create({  
-    container: {  
-        flex: 1,  
-        justifyContent: 'center',  
-        alignItems: 'center'  
-    },  
-});  
+
+import EditDisplayScreen from './src/editDisplayScreen/EditDisplayScreen'
+import HomeScreen from './src/HomeScreen/HomeScreen';
+import ProfileScreen from './src/ProfileScreen/ProfileScreen';
+import MirrorSetupScreen from './src/MirrorSetupScreen/MirrorSetUpScreen';
+import LinkAccountScreen from './src/LinkAccountScreen/LinkAccountScreen'
+
+
+export default class App extends Component {
+    render(){
+        return(
+            <AppContainer />
+        )
+    }
+}
+
+
 const TabNavigator = createMaterialBottomTabNavigator(  
     {  
         Home: { screen: HomeScreen,  
@@ -120,5 +85,6 @@ const TabNavigator = createMaterialBottomTabNavigator(
       barStyle: { backgroundColor: '#67baf6' }, 
     },  
 );  
-  
-export default createAppContainer(TabNavigator); 
+
+
+const AppContainer = createAppContainer(TabNavigator);
