@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>27ED65F9-DBA2-4FD5-A258-7CFF3638639E</key>
+		<key>4C0E4F43-09CE-406D-B2A6-31D9F611538E</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>27ED65F9-DBA2-4FD5-A258-7CFF3638639E.xcactivitylog</string>
+			<string>4C0E4F43-09CE-406D-B2A6-31D9F611538E.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,15 +27,15 @@
 			<key>signature</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>584828932.53260398</real>
+			<real>584910059.58733499</real>
 			<key>timeStoppedRecording</key>
-			<real>584828958.53386605</real>
+			<real>584910070.73851001</real>
 			<key>title</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>27ED65F9-DBA2-4FD5-A258-7CFF3638639E</string>
+			<string>4C0E4F43-09CE-406D-B2A6-31D9F611538E</string>
 		</dict>
-		<key>5D98E53A-85BE-40EB-B72A-A360AF8D1B86</key>
+		<key>E764079E-2D8B-4FC7-83ED-5CB2657CF7F8</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>5D98E53A-85BE-40EB-B72A-A360AF8D1B86.xcactivitylog</string>
+			<string>E764079E-2D8B-4FC7-83ED-5CB2657CF7F8.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,13 @@
 			<key>signature</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>584856435.74927497</real>
+			<real>584909950.90863299</real>
 			<key>timeStoppedRecording</key>
-			<real>584856480.36629999</real>
+			<real>584909980.19998002</real>
 			<key>title</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>5D98E53A-85BE-40EB-B72A-A360AF8D1B86</string>
+			<string>E764079E-2D8B-4FC7-83ED-5CB2657CF7F8</string>
 		</dict>
 	</dict>
 </dict>

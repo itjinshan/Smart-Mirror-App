@@ -3,34 +3,33 @@ import {StyleSheet,
         Text,
         View,
         Button,
-        Image} from 'react-native';  
+        Image,
+        ScrollView} from 'react-native';  
 import { Header } from 'react-native-elements';
 import moment from 'moment';
+import EditProfile from './EditProfile';
 
 class ProfileScreen extends React.Component {  
   constructor(props) {
     super(props);
     this.state = {
-      //defauilt value of the time
-      time: '',
+      userName: 'Alex',
       greeting: '',
     };
   }
-  componentDidMount() {
-//Getting the current date-time with required formate and UTC   
+  componentDidMount() {  
     var hour = moment()
       .format('HH');
 
     this.setState({ time: hour });
-    //Settign up time to show
     if(hour < 12){
-      this.setState({greeting: 'Good Morning!'})
+      this.setState({greeting: 'Good Morning, ' + this.state.userName})
     }
-    else if(hour > 12 && hour < 18){
-      this.setState({greeting: 'Good Afternoon!'})
+    else if(hour >= 12 && hour < 18){
+      this.setState({greeting: 'Good Afternoon, ' + this.state.userName})
     }
-    else{
-      this.setState({greeting: 'Good Evening!'})
+    else if(hour >= 18 && hour <= 24){
+      this.setState({greeting: 'Good Evening, ' + this.state.userName})
     }
   }
     render() {  
@@ -38,7 +37,7 @@ class ProfileScreen extends React.Component {
           <View style={styles.container}>  
             <View>
               <Header
-                backgroundColor= '#67baf6'
+                backgroundColor= '#7fbcac'
                 centerComponent={{ text: 'Profile', style: { color: '#fff' } }}
               />
             </View>
@@ -47,10 +46,10 @@ class ProfileScreen extends React.Component {
                        source={{uri:'https://freehindistatus.com/wp-content/uploads/2018/05/cute-baby-whatsapp-profile-300x300.jpg'}} />
             </View> 
             <View style={styles.center}>
-              <Text>{this.state.greeting}</Text>
+              <Text style={styles.greetingMsg}>{this.state.greeting}</Text>
             </View>
             <View style={styles.bottom}>
-              
+              <EditProfile />
             </View>
           </View>  
       );  
@@ -65,18 +64,18 @@ class ProfileScreen extends React.Component {
       height: '25%',
       alignItems: 'center',
       justifyContent: 'center',
-      backgroundColor: '#98d2c1',
+      backgroundColor: '#FFDE26',
     },
     center: {
       height: '10%',
-      backgroundColor: '#7fbcac',
+      alignItems: 'center',
+      justifyContent: 'center',
+      backgroundColor: '#FEC100',
     },
     bottom: {
-      height: '65%',
+      height: '52%',
       backgroundColor: '#fff',
       flexDirection: 'row',
-      flexWrap: 'wrap',
-      padding : 5,
     },
     profileImg: {
       width: 140,
@@ -85,6 +84,13 @@ class ProfileScreen extends React.Component {
       borderWidth: 4,
       borderColor: '#fff',
       backgroundColor: '#eee',
+    },
+    greetingMsg: {
+      textAlign: 'center',
+      fontFamily: 'Marker Felt',
+      fontSize: 24,
+      fontStyle: 'italic',
+      color: '#605F5D',
     },
 });  
 
