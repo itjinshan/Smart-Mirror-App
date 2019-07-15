@@ -35,7 +35,7 @@
 			<key>uniqueIdentifier</key>
 			<string>27ED65F9-DBA2-4FD5-A258-7CFF3638639E</string>
 		</dict>
-		<key>F67A2011-4713-4D00-8FA8-08EE1FDBE0EB</key>
+		<key>5D98E53A-85BE-40EB-B72A-A360AF8D1B86</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -44,7 +44,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>F67A2011-4713-4D00-8FA8-08EE1FDBE0EB.xcactivitylog</string>
+			<string>5D98E53A-85BE-40EB-B72A-A360AF8D1B86.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -56,13 +56,13 @@
 			<key>signature</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>584828264.93982005</real>
+			<real>584856435.74927497</real>
 			<key>timeStoppedRecording</key>
-			<real>584828622.07322001</real>
+			<real>584856480.36629999</real>
 			<key>title</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>F67A2011-4713-4D00-8FA8-08EE1FDBE0EB</string>
+			<string>5D98E53A-85BE-40EB-B72A-A360AF8D1B86</string>
 		</dict>
 	</dict>
 </dict>
