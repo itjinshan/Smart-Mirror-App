@@ -4,6 +4,7 @@ import {StyleSheet,
         View,
         Button,
         Image,
+        TextInput,
         ScrollView,
         Dimensions} from 'react-native';  
 
@@ -19,35 +20,96 @@ class EditProfile extends Component {
             email: 'alex.jiang@sjsu.edu',
             dob: '01/24/1995',
             workAddress: '1 Washington Square San Jose, CA 95112',
+            profileEditing: false,
         };
     }
 
-    contentSizeChange = (contentWidth, contentHeight) => {
+    contentSizeChange = (contentHeight) => {
         this.setState({screenHeight: contentHeight});
     };
 
     render(){ 
-        const scrollable = this.state.screenHeight > height;
+        const scrollable = this.state.screenHeight > height*0.4;
+
+        const editProfile = () => {
+            this.setState({profileEditing:true});
+        }
+    
+        const finishEditing = () => {
+            this.setState({profileEditing:false});
+        }
         return(
-            <View style={{flex: 1}}>  
-                <ScrollView style={{flex: 1}}
-                            contentContainerStyle={{flexGrow: 1}}
-                            scrollEnabled={scrollable}
-                            onContentSizeChange = {this.contentSizeChange}>
+            <View style={{flex: 1}}>
                     <Text style={styles.Header}>Personal Information</Text>
-                    <View style={{marginHorizontal: 45}}>
-                        <Text style={styles.InfoHeader}>Username:</Text>
-                        <Text style={styles.InfoDisplay}>{this.state.userName}</Text>
-                        <Text style={styles.InfoHeader}>Display Name:</Text>
-                        <Text style={styles.InfoDisplay}>{this.state.displayingName}</Text>
-                        <Text style={styles.InfoHeader}>Date of Birth:</Text>
-                        <Text style={styles.InfoDisplay}>{this.state.dob}</Text>
-                        <Text style={styles.InfoHeader}>Login Email:</Text>
-                        <Text style={styles.InfoDisplay}>{this.state.email}</Text>
-                        <Text style={styles.InfoHeader}>Work Address:</Text>
-                        <Text style={styles.InfoDisplay}>{this.state.workAddress}</Text>
-                    </View>
-                </ScrollView>
+                    {this.state.profileEditing === false ? (
+                        <ScrollView style={{flex: 1}}
+                                    contentContainerStyle={{flexGrow: 1}}
+                                    scrollEnabled={scrollable}
+                                    onMomentumScrollEnd={true}
+                                    onContentSizeChange = {this.contentSizeChange}>
+                        <View style={{marginHorizontal: 45}}>
+                            <Text style={styles.InfoHeader}>Username:</Text>
+                            <Text style={styles.InfoDisplay}>{this.state.userName}</Text>
+                            <Text style={styles.InfoHeader}>Display Name:</Text>
+                            <Text style={styles.InfoDisplay}>{this.state.displayingName}</Text>
+                            <Text style={styles.InfoHeader}>Date of Birth:</Text>
+                            <Text style={styles.InfoDisplay}>{this.state.dob}</Text>
+                            <Text style={styles.InfoHeader}>Login Email:</Text>
+                            <Text style={styles.InfoDisplay}>{this.state.email}</Text>
+                            <Text style={styles.InfoHeader}>Work Address:</Text>
+                            <Text style={styles.InfoDisplay}>{this.state.workAddress}</Text>
+                            <Button
+                                onPress = {editProfile}
+                                title = "Edit Profile"
+                                color = "red"
+                            />
+                        </View>
+                        </ScrollView>
+                    ):(
+                        <ScrollView style={{flex: 1}}
+                                    contentContainerStyle={{flexGrow: 1}}
+                                    scrollEnabled={scrollable}
+                                    onMomentumScrollEnd={true}
+                                    onContentSizeChange = {this.contentSizeChange}>
+                        <View style={{marginHorizontal: 45}}>
+                            <Text style={styles.InfoHeader}>Username:</Text>
+                            <TextInput
+                                style={styles.InfoDisplay}
+                                placeholder={this.state.userName}
+                                onChangeText={(userName) => this.setState({userName})}
+                            />
+                            <Text style={styles.InfoHeader}>Display Name:</Text>
+                            <TextInput
+                                style={styles.InfoDisplay}
+                                placeholder={this.state.displayingName}
+                                onChangeText={(displayingName) => this.setState({displayingName})}
+                            />
+                            <Text style={styles.InfoHeader}>Date of Birth:</Text>
+                            <TextInput
+                                style={styles.InfoDisplay}
+                                placeholder={this.state.dob}
+                                onChangeText={(dob) => this.setState({dob})}
+                            />
+                            <Text style={styles.InfoHeader}>Login Email:</Text>
+                            <TextInput
+                                style={styles.InfoDisplay}
+                                placeholder={this.state.email}
+                                onChangeText={(email) => this.setState({email})}
+                            />
+                            <Text style={styles.InfoHeader}>Work Address:</Text>
+                            <TextInput
+                                style={styles.InfoDisplay}
+                                placeholder={this.state.workAddress}
+                                onChangeText={(workAddress) => this.setState({workAddress})}
+                            />
+                            <Button
+                                onPress = {finishEditing}
+                                title = "Complete Editing"
+                                color = "blue"
+                            />
+                        </View>
+                        </ScrollView>
+                    )}
             </View>
         );
     }
@@ -60,7 +122,7 @@ const styles = StyleSheet.create({
         fontSize: 24,
         fontWeight: 'bold',
         fontFamily: 'Marker Felt',
-        lineHeight: 35,
+        lineHeight: 55,
     },
     InfoHeader: {
         textAlign: 'left',
