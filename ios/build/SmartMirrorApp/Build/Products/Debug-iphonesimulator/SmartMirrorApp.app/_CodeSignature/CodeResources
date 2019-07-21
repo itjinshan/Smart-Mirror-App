@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		v/DrlKEkyP9pSIqBq9aUQKD5NN8=
+		i2kEEB/9gI0HCSIEiyxvSUN+afU=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -139,7 +139,7 @@
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest.dSYM/Contents/Resources/DWARF/SmartMirrorAppTests</key>
 		<data>
-		MbW/thkk5pH22FEVdgTpf1TmFQ0=
+		PdjEATv/o/nTz81nCT+KogDFSHA=
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/Info.plist</key>
 		<data>
@@ -147,7 +147,7 @@
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/SmartMirrorAppTests</key>
 		<data>
-		QR8G0n1T2Z1BjyX8oCRWRf9UKAU=
+		rrUHbGVCmY3lH+wVfSCNDXN3ht0=
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
@@ -179,11 +179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			v/DrlKEkyP9pSIqBq9aUQKD5NN8=
+			i2kEEB/9gI0HCSIEiyxvSUN+afU=
 			</data>
 			<key>hash2</key>
 			<data>
-			mH9p1ravi7lH0qNGMjYMDUqaRUEyRN/gkECVcXrgJi4=
+			2Seo7CHCq77pi2NjMfXe7Q0te+XbkEsNgEXX6lbmIRQ=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -500,11 +500,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MbW/thkk5pH22FEVdgTpf1TmFQ0=
+			PdjEATv/o/nTz81nCT+KogDFSHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			IAwGhZdmIt0beGcUqSKvVsIc/sECaYagrdXVaE6KYz0=
+			k+egigTwg3mlfS9wXOLiJjrsUF7c+UxWh5ZHKSSkAD4=
 			</data>
 		</dict>
 		<key>PlugIns/SmartMirrorAppTests.xctest/Info.plist</key>
@@ -522,11 +522,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QR8G0n1T2Z1BjyX8oCRWRf9UKAU=
+			rrUHbGVCmY3lH+wVfSCNDXN3ht0=
 			</data>
 			<key>hash2</key>
 			<data>
-			W5wnemxskEs1jwDNVNyRGqfOPKjMmyCoYdMZupYdA2w=
+			t+DfSTxeG0vTgCGmKHG3v8x0i1z6eqDqGpp9G3yvWjo=
 			</data>
 		</dict>
 		<key>PlugIns/SmartMirrorAppTests.xctest/_CodeSignature/CodeResources</key>

@@ -45,9 +45,13 @@ class EditProfile extends Component {
                         <ScrollView style={{flex: 1}}
                                     contentContainerStyle={{flexGrow: 1}}
                                     scrollEnabled={scrollable}
-                                    onMomentumScrollEnd={true}
                                     onContentSizeChange = {this.contentSizeChange}>
                         <View style={{marginHorizontal: 45}}>
+                            <Button
+                                onPress = {editProfile}
+                                title = "Edit Profile"
+                                color = "red"
+                            />
                             <Text style={styles.InfoHeader}>Username:</Text>
                             <Text style={styles.InfoDisplay}>{this.state.userName}</Text>
                             <Text style={styles.InfoHeader}>Display Name:</Text>
@@ -58,20 +62,19 @@ class EditProfile extends Component {
                             <Text style={styles.InfoDisplay}>{this.state.email}</Text>
                             <Text style={styles.InfoHeader}>Work Address:</Text>
                             <Text style={styles.InfoDisplay}>{this.state.workAddress}</Text>
-                            <Button
-                                onPress = {editProfile}
-                                title = "Edit Profile"
-                                color = "red"
-                            />
                         </View>
                         </ScrollView>
                     ):(
                         <ScrollView style={{flex: 1}}
                                     contentContainerStyle={{flexGrow: 1}}
                                     scrollEnabled={scrollable}
-                                    onMomentumScrollEnd={true}
                                     onContentSizeChange = {this.contentSizeChange}>
                         <View style={{marginHorizontal: 45}}>
+                            <Button
+                                onPress = {finishEditing}
+                                title = "Complete Editing"
+                                color = "blue"
+                            />
                             <Text style={styles.InfoHeader}>Username:</Text>
                             <TextInput
                                 style={styles.InfoDisplay}
@@ -101,11 +104,6 @@ class EditProfile extends Component {
                                 style={styles.InfoDisplay}
                                 placeholder={this.state.workAddress}
                                 onChangeText={(workAddress) => this.setState({workAddress})}
-                            />
-                            <Button
-                                onPress = {finishEditing}
-                                title = "Complete Editing"
-                                color = "blue"
                             />
                         </View>
                         </ScrollView>
