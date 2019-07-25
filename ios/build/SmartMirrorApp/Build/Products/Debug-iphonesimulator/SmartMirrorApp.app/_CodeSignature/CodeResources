@@ -10,7 +10,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		7nBbY2SxS0uJ8j1FLRmdnVG7Ph0=
+		i2kEEB/9gI0HCSIEiyxvSUN+afU=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -82,15 +82,15 @@
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		ZYYXrlSp6znc2cHkHxyB8TaaHBs=
+		DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		KFe+gDm+yALzEOD36ZA5084ls8A=
+		HK6asLJ70IK7E4e83e8R1gxACHo=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		M13E8vfB/VgwEFXqpsN3CG++92g=
+		/8LQToTPOL9FsEsYDaACQ21Day0=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -103,11 +103,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		jbKC2b+KYpjXh2qm/yVPxp6oxXU=
+		P6P66kW7+LvLIo4WHjXGltpT8CA=
 		</data>
 		<key>Frameworks/libXCTestBundleInject.dylib</key>
 		<data>
-		no2V+L990CqA7SYiuPU2YMyW47w=
+		xKX69bDGMJa2TcU/BC9ypZ06rsI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -139,19 +139,19 @@
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest.dSYM/Contents/Resources/DWARF/SmartMirrorAppTests</key>
 		<data>
-		eGa36IC5ohaGvujZsARraWX3vmA=
+		PdjEATv/o/nTz81nCT+KogDFSHA=
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/Info.plist</key>
 		<data>
-		3H8JWtLDvWzVIe+yuh5ntzeo028=
+		rRkmAPPOYW2AtAj1zd+eZ5Z0o0g=
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/SmartMirrorAppTests</key>
 		<data>
-		5rQUAB/gHGZbYdwZjmtEL03Pnsw=
+		rrUHbGVCmY3lH+wVfSCNDXN3ht0=
 		</data>
 		<key>PlugIns/SmartMirrorAppTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		di9+wjzhObTf8dnjEl5hGJW6y7o=
+		hkpbS+4hH5vbiBpxAp6dUKU75vg=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -179,11 +179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7nBbY2SxS0uJ8j1FLRmdnVG7Ph0=
+			i2kEEB/9gI0HCSIEiyxvSUN+afU=
 			</data>
 			<key>hash2</key>
 			<data>
-			g+49QudPK43SpA1Ul29iWTammHc96mYlRGsWXGowKFI=
+			2Seo7CHCq77pi2NjMfXe7Q0te+XbkEsNgEXX6lbmIRQ=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -377,33 +377,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZYYXrlSp6znc2cHkHxyB8TaaHBs=
+			DQ4GPJ7FuM6H+FaCC/2wxhPSGCQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			snVQYPElgt1HK6aEfmfKq/9jiXrNKhdcImZTT1Jt5ac=
+			VfVpYXVjG5OK2j8J39CP2mIMg1P5eFaYkRIJ/Hb2RSQ=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KFe+gDm+yALzEOD36ZA5084ls8A=
+			HK6asLJ70IK7E4e83e8R1gxACHo=
 			</data>
 			<key>hash2</key>
 			<data>
-			v3jcAkNVlxj78GQHyDeUW0ekJD9lOWaMJcVpo6KlBW0=
+			olgg9NXiZ2M1ifvjBR8uTJxtXlM5EacLdDrNxfmImoY=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			M13E8vfB/VgwEFXqpsN3CG++92g=
+			/8LQToTPOL9FsEsYDaACQ21Day0=
 			</data>
 			<key>hash2</key>
 			<data>
-			eLesS9RVUyWT5BpDudbpIQKv+Xm0YkJbe/GTU09SLLw=
+			C7sJpbu4qpi8/rH5JYpdQYncotP69JQ9Fiu8jrHXYvU=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -423,22 +423,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			jbKC2b+KYpjXh2qm/yVPxp6oxXU=
+			P6P66kW7+LvLIo4WHjXGltpT8CA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q7ZYLt2wkcLeyL+1t2D9/nX047oeBQP5aoTBux/xecU=
+			2BV684CZjHtMZHxSiwC5qc/DGXv9WIOWUc9dEU/Q1pw=
 			</data>
 		</dict>
 		<key>Frameworks/libXCTestBundleInject.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			no2V+L990CqA7SYiuPU2YMyW47w=
+			xKX69bDGMJa2TcU/BC9ypZ06rsI=
 			</data>
 			<key>hash2</key>
 			<data>
-			gI4WnkFhB/fAk/cKiE1cqcVpo/iwxL+xuuPY0kk7JAM=
+			jJ/zKe1SwWk9KkZ4MXV01NPW4QiHpU1aZhpfTDknkp0=
 			</data>
 		</dict>
 		<key>Ionicons.ttf</key>
@@ -500,44 +500,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			eGa36IC5ohaGvujZsARraWX3vmA=
+			PdjEATv/o/nTz81nCT+KogDFSHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			oAPu7wVQxWGQ0obueXm2pX36y+J4sk8UcGQRcFNZClw=
+			k+egigTwg3mlfS9wXOLiJjrsUF7c+UxWh5ZHKSSkAD4=
 			</data>
 		</dict>
 		<key>PlugIns/SmartMirrorAppTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3H8JWtLDvWzVIe+yuh5ntzeo028=
+			rRkmAPPOYW2AtAj1zd+eZ5Z0o0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			5UxgycaxUiD2GPfW4IMkCi0Z/rhMuwqBIM31BlnDBMU=
+			oWeC0Tgi1JLCW57nPWaarJ5XktdRM1CEpCZixdOdPQ0=
 			</data>
 		</dict>
 		<key>PlugIns/SmartMirrorAppTests.xctest/SmartMirrorAppTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5rQUAB/gHGZbYdwZjmtEL03Pnsw=
+			rrUHbGVCmY3lH+wVfSCNDXN3ht0=
 			</data>
 			<key>hash2</key>
 			<data>
-			vXl1tcBC5GkeGTh/wUiUNqgc7HlmIZM7DwEjNFRFWek=
+			t+DfSTxeG0vTgCGmKHG3v8x0i1z6eqDqGpp9G3yvWjo=
 			</data>
 		</dict>
 		<key>PlugIns/SmartMirrorAppTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			di9+wjzhObTf8dnjEl5hGJW6y7o=
+			hkpbS+4hH5vbiBpxAp6dUKU75vg=
 			</data>
 			<key>hash2</key>
 			<data>
-			90WXohnaoBRkchXpsrsBLhdr3BXR/Hua/nW7DBYKpc0=
+			njdGM8wJFhO+LIOHOsecj0K2K3V5ZxgimMNST00/jew=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
