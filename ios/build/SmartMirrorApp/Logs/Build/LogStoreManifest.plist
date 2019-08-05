@@ -6,7 +6,7 @@
 	<integer>9</integer>
 	<key>logs</key>
 	<dict>
-		<key>D49CF64F-16AC-413E-B34A-3590A45F577C</key>
+		<key>115AFF38-1D03-4D54-B6EE-2EF45236C5F0</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>D49CF64F-16AC-413E-B34A-3590A45F577C.xcactivitylog</string>
+			<string>115AFF38-1D03-4D54-B6EE-2EF45236C5F0.xcactivitylog</string>
 			<key>highLevelStatus</key>
 			<string>W</string>
 			<key>schemeIdentifier-containerName</key>
@@ -27,13 +27,42 @@
 			<key>signature</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>timeStartedRecording</key>
-			<real>584564301.95786703</real>
+			<real>585443729.947469</real>
 			<key>timeStoppedRecording</key>
-			<real>584564712.1049</real>
+			<real>585443747.62668705</real>
 			<key>title</key>
 			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
 			<key>uniqueIdentifier</key>
-			<string>D49CF64F-16AC-413E-B34A-3590A45F577C</string>
+			<string>115AFF38-1D03-4D54-B6EE-2EF45236C5F0</string>
+		</dict>
+		<key>13A535F1-5A36-4A0C-B1A7-C80F8970A0F1</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>13A535F1-5A36-4A0C-B1A7-C80F8970A0F1.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>schemeIdentifier-containerName</key>
+			<string>SmartMirrorApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SmartMirrorApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>585443509.63276803</real>
+			<key>timeStoppedRecording</key>
+			<real>585443584.84056795</real>
+			<key>title</key>
+			<string>Building project SmartMirrorApp with scheme SmartMirrorApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>13A535F1-5A36-4A0C-B1A7-C80F8970A0F1</string>
 		</dict>
 	</dict>
 </dict>
