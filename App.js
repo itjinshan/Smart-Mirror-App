@@ -7,7 +7,7 @@
  */
 
 import React, { Component } from 'react';  
-import {StyleSheet, Text, View,Button} from 'react-native';  
+import {StyleSheet, Text, View,Button,YellowBox} from 'react-native';  
 import { createBottomTabNavigator, createAppContainer} from 'react-navigation';  
 import { createMaterialBottomTabNavigator } from 'react-navigation-material-bottom-tabs';  
 import Icon from 'react-native-vector-icons/Ionicons';  
@@ -18,6 +18,10 @@ import ProfileScreen from './src/ProfileScreen/ProfileScreen';
 import MirrorSetupScreen from './src/MirrorSetupScreen/MirrorSetUpScreen';
 import LinkAccountScreen from './src/LinkAccountScreen/LinkAccountScreen'
 
+YellowBox.ignoreWarnings([
+    'Unrecognized WebSocket connection option(s) `agent`, `perMessageDeflate`, `pfx`, `key`, `passphrase`, `cert`, `ca`, `ciphers`, `rejectUnauthorized`. Did you mean to put these under `headers`?'
+    ,'Setting a timer'
+]);
 
 export default class App extends Component {
     render(){
